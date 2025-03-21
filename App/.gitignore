@@ -1,0 +1,45 @@
+# Build e publicação
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# Configurações do Visual Studio e Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de dependências
+packages/
+*.nupkg
+project.lock.json
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.bak
+~$*
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Secrets e credenciais
+secrets.json
+appsettings.json
+appsettings.Development.json
+
+# Arquivos do NuGet
+.nuget/
+*.nupkg
+
+# Outros
+*.swp
+*.swo
+*.cache
